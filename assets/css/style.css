@@ -453,28 +453,6 @@
 .form-close-right:hover .ti-close{
     color: #000;
 }
-/* @media screen and (max-width: 992px){
-    .ad-card-wrap, .sold-item, .content-section , .ticket-form-wrap{
-        width:70% ;
-    }
-
-}
-@media screen and (max-width: 768px){
-    .ad-card-wrap, .sold-item , .content-section ,.ticket-form-wrap{
-        width:80% ;
-    }
-}
-@media screen and (max-width: 576px){
-    .ad-card-wrap, .sold-item , .content-section, .ticket-form-wrap{
-        width:90% ;
-    }
-} */
-
-/* PC:  >= 1024px  Tablet: >= 740px and <= 1024px
-    Mobile: <740px
-
-*/
-
 
  input[type="name"] {
         width: 100%;
@@ -574,11 +552,8 @@ input[type="checkbox"]:checked ~ #res-nav .res-nav__item a:not(.home){
     #header{
         display: none;
     }
-<<<<<<< HEAD
     .text-content{
         display: none;
     }
-}
-=======
-}
->>>>>>> 52f6577e8088a87f8c9bc9d4fe81419fff856fc7
+
+}  
