@@ -574,7 +574,11 @@ input[type="checkbox"]:checked ~ #res-nav .res-nav__item a:not(.home){
     #header{
         display: none;
     }
+<<<<<<< HEAD
     .text-content{
         display: none;
     }
 }
+=======
+}
+>>>>>>> 52f6577e8088a87f8c9bc9d4fe81419fff856fc7
