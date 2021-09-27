@@ -1,1 +1,1 @@
-The band with responsive feature
+The band website with responsive feature.
