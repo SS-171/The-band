@@ -522,11 +522,13 @@
     font-weight: 600;
 }
 
-input[type="checkbox"]:checked ~ #res-nav .res-nav__item a:not(.home){
+#res-nav .res-nav__item a:not(.home){
     display: none;
 }
 
-
+#res-nav.res-nav--show .res-nav__item a:not(.home){
+    display: block;
+}
 @media (min-width: 1024px){
 
     .ad-card-wrap, .sold-item, .content-section , .ticket-form-wrap{

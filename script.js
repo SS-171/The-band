@@ -26,4 +26,17 @@ function ticketHandle() {
             
         }         
     }   
+
 ticketHandle();
+
+const menuItem = document.querySelectorAll('#res-nav .res-nav__item a:not(.home)');
+menuItem.forEach(each=> {
+   
+    each.onclick = () =>{
+        document.querySelector('#res-nav').classList.toggle('res-nav--show')
+    }
+})
+
+document.querySelector('.nav-menu').onclick =() =>{
+    document.querySelector('#res-nav').classList.toggle('res-nav--show')
+}
