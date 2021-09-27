@@ -89,7 +89,7 @@
     margin-top: 46px;
     /* 50 percents of width  */
     padding-top: 50%;
-    background: url('/assets/img/band.jpg') top center/cover no-repeat;
+    background: url('../img/band.jpg') top center/cover no-repeat;
 
 }
 #slider .text-content {
